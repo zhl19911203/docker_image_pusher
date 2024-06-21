@@ -27,10 +27,10 @@ zilliz/attu:v2.4
 quay.io/minio/minio:RELEASE.2024-06-13T22-53-53Z
 
 #cuda
-nvidia/cuda:12.5.0-devel-rockylinux9
-nvidia/cuda:12.5.0-devel-ubuntu22.04
-nvidia/cuda:12.5.0-devel-ubuntu20.04
-nvidia/cuda:12.5.0-runtime-ubuntu22.04
-nvidia/cuda:12.5.0-runtime-ubuntu20.04
-nvidia/cuda:12.4.1-cudnn-runtime-ubuntu20.04
-nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
+#nvidia/cuda:12.5.0-devel-rockylinux9
+#nvidia/cuda:12.5.0-devel-ubuntu22.04
+#nvidia/cuda:12.5.0-devel-ubuntu20.04
+#nvidia/cuda:12.5.0-runtime-ubuntu22.04
+#nvidia/cuda:12.5.0-runtime-ubuntu20.04
+#nvidia/cuda:12.4.1-cudnn-runtime-ubuntu20.04
+#nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
