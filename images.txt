@@ -1,6 +1,26 @@
 nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
+
+#Home Assistant 是一个智能家居的终极解决方案，可以聚合各个厂商的设备，进行定制化管理。可以自己写代码扩展应用，也可以接入各类AI大语言模型等等。爬爬虾有多期视频介绍过Homeassistant， 感兴趣的观众可以找来看看
+ghcr.io/home-assistant/home-assistant:stable
+
+# milvus
+milvusdb/milvus:v2.4.5
+minio/minio:RELEASE.2023-03-20T20-16-18Z
+quay.io/coreos/etcd:v3.5.5
+
+#minio
+quay.io/minio/minio:RELEASE.2024-06-13T22-53-53Z
+
+#cuda
+nvidia/cuda:12.5.0-devel-rockylinux9
+nvidia/cuda:12.5.0-devel-ubuntu22.04
+nvidia/cuda:12.5.0-devel-ubuntu20.04
+nvidia/cuda:12.5.0-runtime-ubuntu22.04
+nvidia/cuda:12.5.0-runtime-ubuntu20.04
+nvidia/cuda:12.4.1-cudnn-runtime-ubuntu20.04
+nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
